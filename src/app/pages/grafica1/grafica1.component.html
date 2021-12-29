@@ -1,10 +1,14 @@
 <div class="row">
   <div class="col-6"><app-dona [titulo]="'VideoJuegos'"></app-dona></div>
   <div class="col-6">
-    <app-dona [labels]="labels" [dataSets]="dataSets"></app-dona>
+    <app-dona
+      [titulo]="'Videojuegos'"
+      [labels]="labels"
+      [dataSets]="dataSets"
+    ></app-dona>
   </div>
 </div>
 <div class="row">
-  <div class="col-6"><app-dona></app-dona></div>
-  <div class="col-6"><app-dona></app-dona></div>
+  <div class="col-6"><app-dona [titulo]="'PS4'"></app-dona></div>
+  <div class="col-6"><app-dona [titulo]="'Xbox Series X'"></app-dona></div>
 </div>
