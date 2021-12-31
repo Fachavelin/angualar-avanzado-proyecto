@@ -11,7 +11,7 @@ declare function customInitFunctions(): any;
 export class PagesComponent implements OnInit {
   public linkTheme = document.querySelector('#theme');
 
-  constructor(private settings: SettingsService) {}
+  constructor(private settingsService: SettingsService) {}
 
   ngOnInit(): void {
     customInitFunctions();
